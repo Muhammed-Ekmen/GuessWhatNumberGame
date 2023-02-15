@@ -118,7 +118,9 @@ class ViewController: UIViewController {
             guessNumberTextField.text?.removeAll()
         }
     }
-    
+    /*
+    we have used the alert dialiog. it has 2 part. These are Controller and present. In addition you can add button and add function,
+    */
     func restartAlert(){
         let alertCtrl = UIAlertController(title: ConstTexts.shared.gameMessage, message: ConstTexts.shared.winMessage, preferredStyle: UIAlertController.Style.alert)
         let restartAction = UIAlertAction(title: ConstTexts.shared.restart, style: UIAlertAction.Style.default) {
